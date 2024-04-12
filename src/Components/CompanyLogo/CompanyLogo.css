@@ -1,0 +1,18 @@
+.company-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.company-logo img{
+    width: 150px;
+} 
+
+/* Responsive code starts here */
+
+@media (max-width: 768px){
+    .company-logo img{
+        width: 100px;
+    }
+}

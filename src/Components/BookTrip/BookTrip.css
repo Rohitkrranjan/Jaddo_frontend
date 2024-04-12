@@ -1,0 +1,70 @@
+.Book-trip-main{
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.book-tirp-left{
+    padding-left: 110px;
+    
+}
+
+.book-trip-left-head p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(62, 61, 61);
+}
+
+.book-trip-left-head h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -10px;
+    color: rgb(38, 38, 43);
+}
+
+.book-trip-left-body-para-top{
+    color: rgb(52, 49, 49);
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.book-trip-right-body img{
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.book-trip-right-body p{
+    text-align: start;
+    padding-left: 15px;
+}
+
+.book-trip-right-body-para-top{
+   font-size: 20px;
+   font-weight: 600;
+   color: black;
+}
+
+.book-trip-right-body{
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px -5px;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Responsive code starts here */
+@media (max-width: 768px){
+    .Book-trip-main{
+        flex-direction: column;
+    }
+    .book-trip-left-head p{
+       font-size: 15px;
+    }
+    .book-trip-right-body{
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+}

@@ -1,0 +1,90 @@
+.offer{
+    margin-top: 120px;
+    /* background-color:whitesmoke; */
+    height:100vh;
+}
+
+.offer-top{
+    text-align: center;
+    line-height: 8px;
+}
+.offer-top p{
+    font-weight: 600;
+    color: rgb(101, 96, 96);
+}
+.offer-top h2{
+    font-size: 50px;
+}
+
+.offer-main-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.para-top{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(71, 68, 68);
+}
+
+.para-bottom{
+    text-align: center;
+    color: rgb(80, 77, 77);
+    font-weight: 500;
+}
+
+.flight-top{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(54, 52, 52); ;
+}
+
+.flight-bottom{
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+}
+
+.offer-content-flight{
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px -5px;
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+
+/* Responsive code starts here */
+
+@media (max-width: 768px){
+  .offer{
+    width: 100%;
+    margin-bottom: 800px;
+    margin-top: -10px;
+  }
+  .offer-top{
+    margin-top: 60px;
+  }
+
+  .offer-main-content{
+    flex-direction: column;
+  }
+  .offer-content img{
+    text-align: center;
+  }
+  #content1,#content3,#content4{
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px -5px;
+    border-radius: 16px;
+    text-align: center;
+    margin-left:10px;
+    margin-bottom: 20px;
+  }
+  #content2{
+    margin-bottom: 20px;
+  }
+
+}
